@@ -1,0 +1,82 @@
+2018/03/12 21:38:10 [emerg] 4128#1232: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2018/03/12 21:38:19 [emerg] 7324#5464: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2018/03/12 21:39:58 [emerg] 1976#7712: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2018/03/12 21:40:08 [emerg] 7676#10020: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2018/03/12 21:40:52 [notice] 1192#7560: signal process started
+2018/03/12 21:48:15 [notice] 6116#1976: signal process started
+2018/03/12 21:48:26 [notice] 7928#4956: signal process started
+2018/03/12 21:48:33 [notice] 9804#1268: signal process started
+2018/03/12 21:53:49 [notice] 4620#4036: signal process started
+2018/03/12 21:54:09 [notice] 7036#6508: signal process started
+2018/03/12 22:30:42 [notice] 552#6216: signal process started
+2018/03/12 22:30:53 [notice] 364#8460: signal process started
+2018/03/12 22:34:31 [notice] 3076#724: signal process started
+2018/03/12 22:35:27 [notice] 9352#9892: signal process started
+2018/03/12 22:35:31 [notice] 7112#7632: signal process started
+2018/03/12 22:36:56 [notice] 8440#6068: signal process started
+2018/03/12 22:37:00 [notice] 9980#5884: signal process started
+2018/03/13 00:13:36 [notice] 6456#6960: signal process started
+2018/03/14 08:25:37 [notice] 9820#4116: signal process started
+2018/03/14 08:41:39 [notice] 7352#4596: signal process started
+2018/03/14 08:52:52 [notice] 8984#10184: signal process started
+2018/03/14 08:56:06 [notice] 4820#2296: signal process started
+2018/03/14 16:19:11 [notice] 8732#1672: signal process started
+2018/03/14 16:27:42 [notice] 2632#7604: signal process started
+2018/03/14 16:28:56 [notice] 4956#4472: signal process started
+2018/03/14 16:29:04 [notice] 2492#7060: signal process started
+2018/03/14 16:31:22 [notice] 8608#6816: signal process started
+2018/03/14 16:31:33 [notice] 7848#6864: signal process started
+2018/03/14 16:33:15 [notice] 3864#8012: signal process started
+2018/03/14 16:34:11 [notice] 10112#9404: signal process started
+2018/03/14 16:34:37 [notice] 9356#1492: signal process started
+2018/03/14 16:34:38 [error] 2492#1440: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "ammisboy.test:8080"
+2018/03/14 16:34:38 [error] 2492#1440: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080"
+2018/03/14 16:34:41 [notice] 6368#6680: signal process started
+2018/03/14 16:47:06 [notice] 9452#8776: signal process started
+2018/03/14 16:58:52 [notice] 736#9096: signal process started
+2018/03/14 16:58:54 [notice] 4940#544: signal process started
+2018/03/14 17:02:01 [notice] 9300#7872: signal process started
+2018/03/14 17:52:32 [notice] 8644#4880: signal process started
+2018/03/14 18:34:41 [error] 9140#6276: *1699 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/products/thumb/product_60x60.jpg HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1697 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/products/product_328x442.jpg HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1697 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/products/product_328x442.jpg HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1696 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/products/product_328x442alt.jpg HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1696 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/products/product_328x442alt.jpg HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1693 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/blog/blog_647x416.jpg HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1693 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/blog/blog_647x416.jpg HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1698 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/logo-mobile.png HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1698 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/logo-mobile.png HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1700 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/thumb_569x341.jpg HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1700 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/thumb_569x341.jpg HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1697 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/revicons.woff?5510888 HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/settings.css"
+2018/03/14 18:34:41 [error] 9140#6276: *1696 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/star.ttf HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/commerce.css"
+2018/03/14 18:34:41 [error] 9140#6276: *1693 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/ElegantIcons.ttf HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/elegant-icon.css"
+2018/03/14 18:34:41 [error] 9140#6276: *1700 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/avatar/thumb_50x50.jpg HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1698 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/client/client_270x100.png HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/"
+2018/03/14 18:34:41 [error] 9140#6276: *1696 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/bg_1920x438.jpg HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/custom.css"
+2018/03/14 18:34:41 [error] 9140#6276: *1696 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/revicons.ttf?5510888 HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/settings.css"
+2018/03/14 18:35:21 [notice] 5520#4752: signal process started
+2018/03/14 18:52:59 [notice] 8144#1324: signal process started
+2018/03/14 18:53:02 [notice] 2924#2916: signal process started
+2018/03/14 18:53:23 [notice] 7640#9864: signal process started
+2018/03/14 22:34:25 [notice] 10004#3720: signal process started
+2018/03/15 20:30:28 [notice] 9308#5732: signal process started
+2018/03/15 20:30:30 [error] 3212#124: *8 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080"
+2018/03/16 08:52:51 [notice] 1012#8768: signal process started
+2018/03/16 09:22:50 [notice] 11164#7632: signal process started
+2018/03/17 09:01:55 [notice] 9348#1728: signal process started
+2018/03/17 09:01:57 [error] 4840#5388: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "ammisboy.test:8080"
+2018/03/17 09:01:57 [error] 4840#5388: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080"
+2018/03/17 09:12:23 [notice] 9920#3828: signal process started
+2018/03/17 18:02:54 [notice] 10120#6468: signal process started
+2018/03/19 11:02:00 [notice] 9160#9156: signal process started
+2018/03/20 10:49:17 [error] 8360#944: *1314 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/products/product_328x442alt.jpg HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/TshirtsLongSleeve"
+2018/03/20 10:49:17 [error] 8360#944: *1318 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/avatar/thumb_50x50.jpg HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/TshirtsLongSleeve"
+2018/03/20 10:49:17 [error] 8360#944: *1318 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /images/avatar/thumb_50x50.jpg HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/TshirtsLongSleeve"
+2018/03/20 10:49:17 [error] 8360#944: *1313 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9001", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/font-awesome.min.css"
+2018/03/20 10:49:17 [error] 8360#944: *1313 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/fontawesome-webfont.woff2?v=4.3.0 HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/font-awesome.min.css"
+2018/03/20 10:49:17 [error] 8360#944: *1313 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/fontawesome-webfont.woff?v=4.3.0 HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/font-awesome.min.css"
+2018/03/20 10:49:17 [error] 8360#944: *1313 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/fontawesome-webfont.ttf?v=4.3.0 HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/font-awesome.min.css"
+2018/03/20 10:49:17 [error] 8360#944: *1319 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/revicons.woff?5510888 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9002", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/settings.css"
+2018/03/20 10:49:17 [error] 8360#944: *1319 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/revicons.woff?5510888 HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/settings.css"
+2018/03/20 10:49:17 [error] 8360#944: *1319 no live upstreams while connecting to upstream, client: 127.0.0.1, server: ammisboy.test, request: "GET /fonts/revicons.ttf?5510888 HTTP/1.1", upstream: "fastcgi://php_upstream", host: "ammisboy.test:8080", referrer: "http://ammisboy.test:8080/css/settings.css"

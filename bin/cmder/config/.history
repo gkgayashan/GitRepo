@@ -1,0 +1,89 @@
+apache
+laravel
+laravel new gkgay
+D:
+cd laravel
+cd www
+laravel new blog
+php artisan serve
+laravel new blog
+php artisan serve
+cd gkgay
+C:
+cd C:\laragon\www\gkgay
+php artisa migrate
+php artisan migrate
+php artisan make:migration create_task_table --create=tasks
+php artisan migrate
+php artisan make:model Task
+App\Task::all()
+php artisan tinker
+App\Task::all()
+php artisan migrate:reset
+php artisan make:model Task -m
+php artisan migrate
+php artisan tinker
+php artisan stinker
+php artisan tinker
+php artisan make:model Task
+App\Task::all()
+php artisan tinker
+php artisan migrate:refresh
+App\Task::all()
+php artisan tinker
+php artisan migrate:refresh
+cd..
+D:
+cd Laravel
+cd AmmisBoy
+dir
+cd D:\Project\Laravel\AmmisBoy
+laravel new AmmisBoy
+php artisan make:controller MainController
+cd Laravel
+dir
+cd D:\Project\Laravel\AmmisBoy
+cd C:
+cd C:\laragon\www
+C:
+laravel new AmmisBoy
+php artisan serve
+cd AmmisBoy
+php artisan
+php artisan make:controller MainController
+php artisan make:controller TshirtController
+cd C:
+cd C:\laragon\www
+C:
+laravel new AmmisBoy
+php artisan serve
+cd AmmisBoy
+php artisan
+php artisan make:controller MainController
+php artisan make:controller TshirtController
+php artisan migrate help
+php artisan help migrate
+php artisan migrate
+php aritsan migrate
+php artisan migrate
+mysql -uroot -p
+mysql -uroot -p
+create database ammisBoy
+mysql -uroot -p
+php artisan migrate
+php artisan migrate
+php artisan migrate
+php artisan migrate
+php artisan migrate
+php artisan migrate:reset
+php artisan make:model items -m
+php artisan migrate
+php artisan migrate
+php artisan migrate
+php artisan migrate
+php artisan migrate
+php artisan migrate
+php artisan migrate:reset
+php artisan make:model items -m
+php artisan make:controller STShirts 
+php artisan tinker

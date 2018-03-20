@@ -1,0 +1,24 @@
+[12-Mar-2018 15:00:17 UTC] PHP Warning:  copy(composer-setup.php): failed to open stream: Permission denied in Command line code on line 1
+[12-Mar-2018 15:00:17 UTC] PHP Warning:  hash_file(composer-setup.php): failed to open stream: No such file or directory in Command line code on line 1
+[12-Mar-2018 15:00:17 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[12-Mar-2018 15:00:24 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[12-Mar-2018 15:00:57 UTC] PHP Warning:  copy(composer-setup.php): failed to open stream: Permission denied in Command line code on line 1
+[12-Mar-2018 15:00:57 UTC] PHP Warning:  hash_file(composer-setup.php): failed to open stream: No such file or directory in Command line code on line 1
+[12-Mar-2018 15:00:57 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[12-Mar-2018 15:00:57 UTC] PHP Warning:  hash_file(composer-setup.php): failed to open stream: No such file or directory in Command line code on line 1
+[12-Mar-2018 15:00:57 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[12-Mar-2018 15:01:34 UTC] PHP Warning:  hash_file(composer-setup.php): failed to open stream: No such file or directory in Command line code on line 1
+[12-Mar-2018 15:01:34 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[12-Mar-2018 15:01:40 UTC] PHP Warning:  copy(composer-setup.php): failed to open stream: Permission denied in Command line code on line 1
+[12-Mar-2018 15:01:45 UTC] PHP Warning:  hash_file(composer-setup.php): failed to open stream: No such file or directory in Command line code on line 1
+[12-Mar-2018 15:01:45 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[12-Mar-2018 15:03:25 UTC] PHP Parse error:  syntax error, unexpected end of file in Command line code on line 1
+[12-Mar-2018 15:06:29 UTC] PHP Parse error:  syntax error, unexpected end of file in Command line code on line 1
+[12-Mar-2018 15:15:33 UTC] PHP Warning:  file_put_contents(C:\/laravel_5d326e57e435ca090568fb1ccecc3399.zip): failed to open stream: Permission denied in C:\Users\gkgay\AppData\Roaming\Composer\vendor\laravel\installer\src\NewCommand.php on line 133
+[12-Mar-2018 15:15:34 UTC] PHP Warning:  ZipArchive::extractTo(): Invalid or uninitialized Zip object in C:\Users\gkgay\AppData\Roaming\Composer\vendor\laravel\installer\src\NewCommand.php on line 151
+[12-Mar-2018 15:15:34 UTC] PHP Warning:  ZipArchive::close(): Invalid or uninitialized Zip object in C:\Users\gkgay\AppData\Roaming\Composer\vendor\laravel\installer\src\NewCommand.php on line 153
+[12-Mar-2018 15:22:22 UTC] PHP Warning:  file_put_contents(C:\/laravel_af9747163b6f88ff5c97f62e6afcd20c.zip): failed to open stream: Permission denied in C:\Users\gkgay\AppData\Roaming\Composer\vendor\laravel\installer\src\NewCommand.php on line 133
+[12-Mar-2018 15:22:22 UTC] PHP Warning:  ZipArchive::extractTo(): Invalid or uninitialized Zip object in C:\Users\gkgay\AppData\Roaming\Composer\vendor\laravel\installer\src\NewCommand.php on line 151
+[12-Mar-2018 15:22:22 UTC] PHP Warning:  ZipArchive::close(): Invalid or uninitialized Zip object in C:\Users\gkgay\AppData\Roaming\Composer\vendor\laravel\installer\src\NewCommand.php on line 153
+[12-Mar-2018 17:04:55 UTC] PHP Warning:  require(D:\Laravel\www\blog\public/../vendor/autoload.php): failed to open stream: No such file or directory in D:\Laravel\www\blog\public\index.php on line 24
+[12-Mar-2018 17:04:55 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Laravel\www\blog\public/../vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear') in D:\Laravel\www\blog\public\index.php on line 24
