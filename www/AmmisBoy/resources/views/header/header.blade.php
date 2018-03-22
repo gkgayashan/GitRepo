@@ -67,7 +67,7 @@
 															<li class="mega-col-3">
 																<h3 class="megamenu-title">Skinnies <span class="caret"></span></h3>
 																<ul class="dropdown-menu">
-																	<li><a href="./Skinnies">Skinnies</a></li>
+																	<li><a href="shop-by-category.html">Maecenas</a></li>
 																	<li><a href="shop-by-category.html">Nulla</a></li>
 																	<li><a href="shop-by-category.html">Donec</a></li>
 																	<li><a href="shop-by-category.html">Aliquam</a></li>
@@ -76,8 +76,8 @@
 															<li class="mega-col-3">
 																<h3 class="megamenu-title">T-shirts <span class="caret"></span></h3>
 																<ul class="dropdown-menu">
-																	<li><a href="./TshirtsLongSleeve">Long Sleeve</a></li>
-																	<li><a href="./TshirtsShortSleeve">Short Sleeve</a></li>
+																	<li><a href="./Tshirts">Long Sleeve</a></li>
+																	<li><a href="shop-by-category.html">Short Sleeve</a></li>
 																	<li><a href="shop-by-category.html">Crocs</a></li>
 																</ul>
 															</li>

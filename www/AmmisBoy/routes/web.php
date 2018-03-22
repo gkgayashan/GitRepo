@@ -12,6 +12,4 @@
 */
 use App\items;
 Route::get('/','MainController@index');
-Route::get('/Skinnies','TshirtController@showAll');
-Route::get('/TshirtsLongSleeve','TshirtController@showAll');
-Route::get('/TshirtsShortSleeve','STShirts@showAll');
+Route::get('/Tshirts','TshirtController@showAll');

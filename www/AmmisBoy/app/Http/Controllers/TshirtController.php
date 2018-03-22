@@ -9,7 +9,7 @@ class TshirtController extends Controller
 {
     public function showAll()
     {
-    	$allItems = items::where('catId', '=', 1)->get();
+    	$allItems = items::all();
     	return view('products.Tshirt',compact('allItems'));
     }
 }

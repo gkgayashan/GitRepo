@@ -29,7 +29,7 @@
 													</div>
 													<div class="loop-action">
 														<div class="loop-add-to-cart">
-															<a href="" class="add_to_cart_button" onclick="hello()">
+															<a href="#" class="add_to_cart_button">
 																Add to cart
 															</a>
 														</div>
@@ -66,8 +66,3 @@
 		</div>
 	</div>
 @endsection
-<script>
-	window.hello = function () {
-     alert("Hello");
-	}
-</script>
